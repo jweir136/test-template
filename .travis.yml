@@ -1,0 +1,9 @@
+language: cpp
+os:
+  - linux
+  - windows
+  - osx
+compiler:
+  - gcc
+script:
+  - make build && make test
